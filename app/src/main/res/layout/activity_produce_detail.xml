@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProduceDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:navigationIcon="@drawable/left_arrow"
+        app:title="商品详情"
+        android:background="@color/colorAccent"
+        app:titleTextColor="@color/white"
+
+        />
+
+    <ImageView
+        android:id="@+id/mm"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/my_image1"/>
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/mm"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/my_price"
+
+        />
+
+
+    <TextView
+        android:id="@+id/p_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="76.1"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@id/mm"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/p_price"
+        android:text="晨光银河小旋星"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/p_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mm"
+        android:layout_marginTop="60dp"
+        android:text="晨光银河小旋星全自动削笔机,小学生专用削笔机,外观好看，价格实惠，刀锋锋利"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/p_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mm"
+        android:layout_marginTop="100dp"
+        android:text="17 世纪人们用刀削铅笔，19 世纪初因对铅笔使用和削笔时间有更高要求，机械原理的卷笔刀应运而生，1828 年由一个法国人发明，之后逐渐发展成现在的样子。
+主要形状：有卡通形、水果形、车形、蝌蚪形等各种造型，还有 QQ 卷笔刀、不倒翁造型等，外观多样，可满足不同人群尤其是儿童和学生的喜好。
+制作材料：材质多样，常见的有塑胶的，具有成本低、造型易塑、颜色丰富等特点；还有木头的，给人自然质朴之感；金属的，如锌合金等，坚固耐用、质感好、更耐摔；陶瓷的则比较稀少，一般作为特色或高端产品。
+分类：按刀座材料可分为塑料、金属、木质等卷笔刀；按款式造型分为普通型和造型卷笔刀；按刀孔数量分为单孔、双孔和多孔卷笔刀。此外，还有手动卷笔刀、音乐卷笔刀、电动削笔机等不同功能类型。音乐卷笔刀摇动时可削笔并演奏音乐，电动削笔机利用电动马达动力削笔，方便快捷。
+生产地：卷笔刀生产地遍布各地，国内浙江是重要产地之一，如杭州、宁波等地有较多生产厂家，此外广东、上海等地也有生产。国外如日本、德国等国家也有生产高品质卷笔刀的厂家，不过市面上常见的一些品牌卷笔刀多为国内生产或国内代工。"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="12sp"
+        android:text="加入购物车"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorAccent"
+
+        />
+
+
+</RelativeLayout>
